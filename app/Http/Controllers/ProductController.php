@@ -19,7 +19,7 @@ class ProductController extends Controller
             'script'            => 'components.scripts.product'
         ];
 
-        return view('pages.product', $data);
+            return view('pages.product', $data);
     }
     public function destroy($id)
     {

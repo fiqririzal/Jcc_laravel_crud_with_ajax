@@ -60,7 +60,6 @@
                         <th>Tindakan</th>
                     </thead>
                 @endif
-
                     </tbody>
                 </table>
             </div>

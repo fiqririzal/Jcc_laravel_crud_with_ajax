@@ -28,7 +28,7 @@ class IndexSeeder extends Seeder
         $user = Role::create([
             'name' => 'User',
         ]);
-
+//fungsi untuk melihat produk yang diberikan hanya ke admin
         $permission = Permission::create([
             'name' => 'see_product',
         ]);
@@ -53,7 +53,7 @@ class IndexSeeder extends Seeder
         ]);
 
         $admin->givePermissionTo($permission);
-
+// buat data super admin
         $data   = [
             'name'      => 'supra',
             'email'     => 'supra@mail.com',
